@@ -1,19 +1,52 @@
 aid: nxtplabs
-name: NXTPLabs
-description: NXTPLabs is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: NXTP
+description: >-
+  NXTP is an early-stage B2B technology venture capital firm investing across
+  Latin America and globally, with more than 15 years of investing experience.
+  Originally added to the API Evangelist network as "NXTPLabs" — a portfolio lead
+  of 500 Global — enrichment revealed nxtplabs.com now redirects to nxtp.vc, the
+  firm's current home. NXTP runs Fund III ($100M), has made 122 investments with
+  32 exits, and its portfolio companies have raised more than $2.3B in capital.
+  The firm backs category-defining B2B founders from offices in Buenos Aires,
+  São Paulo, and Mexico City. As an investment firm it publishes no public API,
+  developer platform, SDK, or technical documentation, so this profile carries
+  identity and firm facts rather than API artifacts.
 url: https://raw.githubusercontent.com/api-evangelist/nxtplabs/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/6806fc2e9c3566827219de17/696fc99341c18a943fa4768a_NXTP_logo_white.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-company-class: venture-capital
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
 tags:
 - Company
+- Venture Capital
+- Investment
+- Early Stage
+- B2B
+- Latin America
+- Startups
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +55,18 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://nxtplabs.com
+  url: https://nxtp.vc
+- type: About
+  url: https://nxtp.vc/philosophy
+- type: Team
+  url: https://nxtp.vc/team
+- type: Portfolio
+  url: https://nxtp.vc/portfolio
+- type: Blog
+  url: https://medium.com/nxtp
+- type: Support
+  url: https://nxtp.vc/contact
+- type: LinkedIn
+  url: https://www.linkedin.com/company/nxtp-ventures/
+- type: Twitter
+  url: https://twitter.com/nxtpvc/
